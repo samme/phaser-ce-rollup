@@ -1,0 +1,12 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - semistandard
+globals:
+  Phaser: readonly
+  PIXI: readonly
+parserOptions:
+  ecmaVersion: 12
+  sourceType: module
+rules: {}
