@@ -42,7 +42,7 @@ export default [
     },
     context: 'window',
     plugins: [
-      production && terser()
+      production && terser({ output: { comments: false } })
     ]
   }
 ];
